@@ -110,7 +110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6186415310463333770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.481709, y: -6.5382237, z: -0.12449088}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -158,7 +158,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 6d51edc2bcfca1d4288190197e7b16ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -199,3 +199,12 @@ MonoBehaviour:
   - {fileID: -1970540219, guid: 9e59b13713456644ca54d1866cc582bb, type: 3}
   - {fileID: 1969975664, guid: 9e59b13713456644ca54d1866cc582bb, type: 3}
   _mask: {fileID: 1512943251648203561}
+  _propsDensity: 30
+  _groundProps:
+  - {fileID: -2886834535404592986, guid: 27f974bf7cb9cdb43bf4c72f810f6972, type: 3}
+  - {fileID: -3338918690881106384, guid: 23407c1af99e7d84a9ce286b45552c6f, type: 3}
+  _wallProps:
+  - {fileID: -7756263616227549173, guid: a37e73e8acbedfa4c998863ae0ab1ec3, type: 3}
+  - {fileID: -6545637792852276823, guid: 4ca9a87d10885714d8f8cf21b3be1bc8, type: 3}
+  _caveProps:
+  - {fileID: 7683582433925613499, guid: 54b536fa94193ab449cd67d4194e8406, type: 3}

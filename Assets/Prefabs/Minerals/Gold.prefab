@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9057971459276113706}
   - component: {fileID: 5540173597787352651}
-  - component: {fileID: 1287634113677388609}
+  - component: {fileID: 3863543026847261474}
   m_Layer: 0
   m_Name: Gold
   m_TagString: Untagged
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1287634113677388609
+--- !u!114 &3863543026847261474
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,6 +94,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5108333001475247050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 403f4e8f47c507b45a90163f9fb28056, type: 3}
+  m_Script: {fileID: 11500000, guid: 5fd82747d471c4643abc7bc2c155da7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _type: 2

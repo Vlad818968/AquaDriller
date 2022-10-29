@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(WorldArray))]
+
 public class WorldGenerator : MonoBehaviour
 {
     [SerializeField] Block _water;
-    [SerializeField] int _worldWidth;
     [SerializeField] int _worldHeight;
     [SerializeField] List<GeneratedObject> _worldObjects = new List<GeneratedObject>();
+    [SerializeField] private WorldArray _worldArray;
 
-    private WorldArray _worldArray;
+    private int _worldWidth = 32;
 
     public event UnityAction<int, int> SetWorldSize;
     public event UnityAction Generated;
 
     private void Awake()
     {
-        _worldArray = GetComponent<WorldArray>();
+        
         SetWorldSize.Invoke(_worldWidth, _worldHeight);
     }
 
